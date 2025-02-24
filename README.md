@@ -1,7 +1,7 @@
 # RRCANet
 
 ## Acknowledgement
-**We would like to thank [DNANet][(https://github.com/YeRen123455/Infrared-Small-Target-Detection)] and [BasicIRSTD][(https://github.com/XinyiYing/BasicIRSTD)] for the helpful discussions and insightful suggestions regarding this repository.**
+**Thanks for [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection) and [BasicIRSTD](https://github.com/XinyiYing/BasicIRSTD).**
 <br><br>
 
 ## Contact

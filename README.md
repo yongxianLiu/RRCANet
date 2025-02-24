@@ -17,18 +17,12 @@ Pytorch implementation of our
 ## Train
 ```bash
 python train.py --model_names DNANet ALCNet ACM --dataset_names SIRST3 --label_type 'centroid'
-
-python train.py --model_names DNANet ALCNet ACM --dataset_names SIRST3 --label_type 'coarse'
-
-python train_full.py --model_names DNANet ALCNet ACM --dataset_names SIRST3 --label_type 'full'
 ```
 <br>
 
 ## Test
 ```bash
 python test.py --model_names DNANet ALCNet ACM --pth_dirs None --dataset_names SIRST NUDT-SIRST IRSTD-1K
-
-python test.py --model_names DNANet ALCNet ACM --pth_dirs SIRST3/DNANet_full.pth.tar SIRST3/DNANet_LESPS_centroid.pth.tar SIRST3/DNANet_LESPS_coarse.pth.tar SIRST3/ALCNet_full.pth.tar SIRST3/ALCNet_LESPS_centroid.pth.tar SIRST3/ALCNet_LESPS_coarse.pth.tar SIRST3/ACM_full.pth.tar SIRST3/ACM_LESPS_centroid.pth.tar SIRST3/ACM_LESPS_coarse.pth.tar --dataset_names SIRST NUDT-SIRST IRSTD-1K
 ```
 <br>
 

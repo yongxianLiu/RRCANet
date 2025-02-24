@@ -5,4 +5,4 @@
 <br><br>
 
 ## Contact
-**Welcome to raise issues or email to Email:yongxian23@nudt.edu.cn for any question.**
+**Welcome to raise issues or email to yongxian23@nudt.edu.cn for any question.**

@@ -16,13 +16,13 @@ Pytorch implementation of our
 
 ## Train
 ```bash
-python train.py --model_names DNANet ALCNet ACM --dataset_names SIRST3 --label_type 'centroid'
+python train.py
 ```
 <br>
 
 ## Test
 ```bash
-python test.py --model_names DNANet ALCNet ACM --pth_dirs None --dataset_names SIRST NUDT-SIRST IRSTD-1K
+python test.py
 ```
 <br>
 

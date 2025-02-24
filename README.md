@@ -12,7 +12,7 @@ Pytorch implementation of our
 ## Datasets
 * SIRST &nbsp; [[download dir]](https://github.com/YimianDai/sirst) &nbsp; [[paper]](https://arxiv.org/pdf/2009.14530.pdf)
 * IRSTD-1K &nbsp; [[download dir]](https://github.com/RuiZhang97/ISNet) &nbsp; [[paper]](https://ieeexplore.ieee.org/document/9880295)
-* DenseSIRST &nbsp; [[download dir]](https://github.com/GrokCV/DenseSIRST &nbsp; [[paper]](https://arxiv.org/abs/2407.20078)
+* DenseSIRST &nbsp; [[download dir]](https://github.com/GrokCV/DenseSIRST) &nbsp; [[paper]](https://arxiv.org/abs/2407.20078)
 
 ## Train
 ```bash

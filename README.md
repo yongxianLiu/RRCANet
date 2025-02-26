@@ -4,8 +4,8 @@ Pytorch implementation of our
 
 
 ## Requirements
-- Python 3
-- pytorch (1.2.0), torchvision (0.4.0) or higher
+- Python 3.9
+- pytorch (1.10.1), torchvision (0.11.2), Cuda (11.1) or higher
 - numpy, PIL
 <br><br>
 

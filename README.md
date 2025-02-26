@@ -5,8 +5,7 @@ Pytorch implementation of our
 
 ## Requirements
 - Python 3.9
-- pytorch (1.10.1), torchvision (0.11.2), Cuda (11.1) or higher
-- numpy, PIL
+- pytorch 1.10.1, torchvision 0.11.2, torchaudio 0.10.1, Cuda 11.1 or higher
 <br><br>
 
 ## Datasets

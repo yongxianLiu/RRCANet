@@ -1,6 +1,6 @@
-# RRCANet
+# Recurrent Reusable-Convolution Attention Network for Infrared Small Target Detection
 
-Pytorch implementation of our
+Pytorch implementation of our RRCANet
 
 
 ## Requirements

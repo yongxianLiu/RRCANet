@@ -27,7 +27,12 @@ python test.py
 
 ## Citiation
 ```
-@article
+@article{liu2025rrcanet,
+  title={RRCANet: Recurrent Reusable-Convolution Attention Network for Infrared Small Target Detection},
+  author={Liu, Yongxian and Li, Boyang and Liu, Ting and Lin, Zaiping and An, Wei},
+  journal={arXiv preprint arXiv:2506.02393},
+  year={2025}
+}
 ```
 <br>
 

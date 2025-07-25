@@ -34,26 +34,14 @@ class Net(nn.Module):
                 self.model = ACM(mode='test')
         elif model_name == 'ALCNet':
             self.model = ALCNet()
-        # elif model_name == 'ISNet':
-        #     if mode == 'train':
-        #         self.model = ISNet(mode='train')
-        #     else:
-        #         self.model = ISNet(mode='test')
-        #     self.cal_loss = ISNetLoss()
-        elif model_name == 'RISTDnet':
-            self.model = RISTDnet()
+
+
         elif model_name == 'UIUNet':
             if mode == 'train':
                 self.model = UIUNet(mode='train')
             else:
                 self.model = UIUNet(mode='test')
             self.cal_loss = MultiBCEloss()
-        elif model_name == 'U-Net':
-            self.model = Unet()
-        elif model_name == 'ISTDU-Net':
-            self.model = ISTDU_Net()
-        elif model_name == 'RDIAN':
-            self.model = RDIAN()
         elif model_name == 'ResUNet':
             self.model = ResUNet()
         elif model_name == 'ResUNet_RuCB':
@@ -66,13 +54,6 @@ class Net(nn.Module):
                 self.model = AMFU(mode='train')
             else:
                 self.model = AMFU(mode='test')
-        # elif model_name == 'AMFU_RuCB':
-        #     if mode == 'train':
-        #         self.model = AMFU_RuCB(mode='train')
-        #     else:
-        #         self.model = AMFU_RuCB(mode='test')
-        # elif model_name == 'DNANet_RuCB':
-        #     self.model = DNANet_RuCB()
         elif model_name == 'LW-IRSTNet':
             self.model = LW_IRSTNet()
 

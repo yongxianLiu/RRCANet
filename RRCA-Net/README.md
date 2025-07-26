@@ -85,6 +85,9 @@ Infrared small target detection is a challenging task due to its unique characte
 |                   | Dense-SIRST   | 82.15  | 98.23 | 1.81 |
 | [[Weights]](https://pan.baidu.com/s/1ie0GGTPoGVMex8n6b0lqkw?pwd=qz5p)|
 
+#### Transfer Results
+![Image text]()
+
 #### Qualitative Results
 ![Image text]()
 

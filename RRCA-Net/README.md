@@ -50,8 +50,16 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
   ```
   python train.py
   ```
-
-<br>
+* **Checkpoints and Logs will be saved to **`./result/`**:**
+  ```
+  ├──./result/
+  │    ├── [dataset_name]_[model_name]_[time]
+  │    │    ├── [model_name]_[dataset_name]_epoch.pth.tar
+  │    │    ├── [model_name]_[dataset_name]IoU.log
+  │    │    ├── [model_name]_[dataset_name]_other_metric.log
+  │    │    ├── train_log.txt
+  ```
+<be>
 
 ## Test
 ```bash

@@ -46,18 +46,17 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
   ```
 
 ## Train
-* **Run **`train.py`** to perform network training. The training settings are in the **`model/parse_args_train.py`**.**
+* **Run **`train.py`** to perform network training. Example for training [model_name] on [dataset_name] datasets:**
   ```
-  python train.py
+  python train.py --model_names RRCANet --dataset_names DenseSIRST
   ```
-* **Checkpoints and Logs will be saved to **`./result/`**:**
+* **Predicted pictures will be saved to **`./results/`**, Pd and Fa will be saved to **`./test_ROC/`**:**
   ```
-  ├──./result/
-  │    ├── [dataset_name]_[model_name]_[time]
-  │    │    ├── [model_name]_[dataset_name]_epoch.pth.tar
-  │    │    ├── [model_name]_[dataset_name]IoU.log
-  │    │    ├── [model_name]_[dataset_name]_other_metric.log
-  │    │    ├── train_log.txt
+  ├──./results/
+  │    ├── [dataset_name]
+  │    │    ├── [model_name]
+  |    |    |    |—— xxxxx.png
+  |    |    |    |—— xxxxx.png
   ```
 <be>
 

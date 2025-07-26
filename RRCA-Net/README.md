@@ -80,9 +80,9 @@ Infrared small target detection is a challenging task due to its unique characte
 #### Quantitative Results
 | Model             | Dataset         | mIoU (x10(-2)) | Pd (x10(-2))|  Fa (x10(-6))|
 | -------------     |:-------------:|:-----:|:-----:| :-----:|
-|                   | IRSTD-1K      | 68.13  | 95.62 | 8.085 |
-| RRCA-Net-ResNet18 | SIRST         | 76.75  | 96.96 | 15.710|
-|                   | NUDT-SIRST    | 94.76  | 99.15 | 1.838 |
+|                   | IRSTD-1K      | 68.73  | 92.52 | 6.68 |
+| RRCA-Net-ResNet18 | NUAA-SIRST    | 75.41  | 98.10 | 7.56 |
+|                   | Dense-SIRST   | 82.15  | 98.23 | 1.81 |
 | [[Weights]](https://pan.baidu.com/s/1ie0GGTPoGVMex8n6b0lqkw?pwd=qz5p)|
 
 #### Qualitative Results

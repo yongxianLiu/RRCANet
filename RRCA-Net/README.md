@@ -86,7 +86,7 @@ Infrared small target detection is a challenging task due to its unique characte
 | [[Weights]](https://pan.baidu.com/s/1ie0GGTPoGVMex8n6b0lqkw?pwd=qz5p)|
 
 #### Transfer Results
-![Image text]()
+![Image text](https://github.com/yongxianLiu/RRCANet/blob/main/RRCA-Net/Fig/Transfer_results.png)
 
 #### Qualitative Results
 ![Image text]()

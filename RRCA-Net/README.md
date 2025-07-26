@@ -62,7 +62,7 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
 <be>
 
 ## Test
-* **Run **`test.py`** to perform network training. The testing settings are in the **`model/parse_args_test.py`**.**
+* **Run **`test.py`** to perform network testing. The testing settings are in the **`model/parse_args_test.py`**.**
   ```
   python test.py
   ```

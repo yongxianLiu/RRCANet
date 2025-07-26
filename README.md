@@ -14,7 +14,7 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
 * DenseSIRST &nbsp; [[download dir]](https://github.com/GrokCV/DenseSIRST) &nbsp; [[paper]](https://arxiv.org/abs/2407.20078)
 
 ## Train & Test
-See "`RRCA-Net/README.md`" for details.
+See "`RRCA-Net/README.md`" and "`BasicIRSTD-RRCANet/README.md`" for details.
 <br>
 
 

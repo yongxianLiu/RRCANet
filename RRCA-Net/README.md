@@ -46,9 +46,11 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
   ```
 
 ## Train
-```bash
-python train.py
-```
+* **Run **`train.py`** to perform network training. The training settings are in the model/parse_args_train.py file**
+  ```
+  python train.py
+  ```
+
 <br>
 
 ## Test

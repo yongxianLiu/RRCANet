@@ -13,17 +13,10 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
 * IRSTD-1K &nbsp; [[download dir]](https://github.com/RuiZhang97/ISNet) &nbsp; [[paper]](https://ieeexplore.ieee.org/document/9880295)
 * DenseSIRST &nbsp; [[download dir]](https://github.com/GrokCV/DenseSIRST) &nbsp; [[paper]](https://arxiv.org/abs/2407.20078)
 
-## Train
-```bash
-python train.py
-```
+## Train & Test
+See "`RRCA-Net/README.md`" for details.
 <br>
 
-## Test
-```bash
-python test.py
-```
-<br>
 
 ## Citiation
 ```

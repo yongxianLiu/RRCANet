@@ -50,13 +50,11 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
   ```
   python train.py --model_names RRCANet --dataset_names DenseSIRST
   ```
-* **Predicted pictures will be saved to **`./results/`**, Pd and Fa will be saved to **`./test_ROC/`**:**
+* **Checkpoints and Logs will be saved to **`./log/`**:**
   ```
-  ├──./results/
+  ├──./log/
   │    ├── [dataset_name]
-  │    │    ├── [model_name]
-  |    |    |    |—— xxxxx.png
-  |    |    |    |—— xxxxx.png
+  │    │    ├── [model_name]_xxxxx.pth.tar
   ```
 <be>
 

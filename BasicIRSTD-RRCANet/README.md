@@ -6,7 +6,7 @@ Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention
 ## Requirements
 - Python 3.9
 - pytorch 1.10.1, torchvision 0.11.2, torchaudio 0.10.1, Cuda 11.1 or higher
-- pandas 1.5.3
+- pandas 1.5.3, numpy 1.22.4
 - thop
 - scikit-image
 - opencv-python

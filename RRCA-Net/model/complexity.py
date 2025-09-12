@@ -50,26 +50,7 @@ def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 print('parameters_count:',count_parameters(net))
 
-#print(net)
-
-#for name, parameter in net.named_parameters():
-    #print(name, ':', parameter.size())
 
 
 
 
-# import argparse
-# import os
-# import time
-# from thop import profile
-# import torch
-#
-#
-# #model = DNANet(num_classes=1, input_channels=args.in_channels, nb_filter=nb_filter, num_blocks=num_block, block=VGG_CBAM_Block, deep_supervision=True)
-# model = res_UNet(num_classes=1, input_channels=3, block=Res_block, num_blocks=num_block,nb_filter=nb_filter)
-# input_img = torch.rand(1,3,512,512).cuda()
-# net = model.cuda()
-# flops, params = profile(net, inputs=(input_img,))
-# flops = flops/1e9
-# params = params/1e6
-# print(round(flops,7), round(params,7))

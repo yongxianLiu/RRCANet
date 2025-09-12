@@ -21,14 +21,12 @@ net = AMFU()
 # net = AMFU_RuCB(n_classes=1,in_channels=3,iterations=2, multiplier=1.0, num_layers=5, integrate='True', deep_supervision='True')
 #net = DNANet(num_classes=1, input_channels=3, nb_filter=[16,32,64,128,256], num_blocks=[2,2,2,2], block=Res_CBAM_block, deep_supervision=True)
 # net = res_UNet(num_classes=1, input_channels=3, block=Res_block, num_blocks=[2,2,2,2],nb_filter=[8,16,32,64,128])
-# net = ResUNet_BiOv8(num_classes=1, input_channels=3, block=Res_block, num_blocks=num_blocks, iterations=2, num_layers=4,
+# net = RRCANet(num_classes=1, input_channels=3, block=Res_block, num_blocks=num_blocks, iterations=2, num_layers=4,
 #                    multiplier=1.0, integrate='True', deep_supervision='False')
 # net = ResUNet_RuCB(num_classes=1, input_channels=3, block=Res_block, num_blocks=num_blocks, iterations=2, num_layers=5,
 #                    multiplier=1.0, integrate='True', deep_supervision='False')
 # net = res_UNet(num_classes=1, input_channels=3, block=Res_block, num_blocks=[2,2,2,2], nb_filter=nb_filter)
 
-# net = DNANet_RuCB2(num_classes=1, input_channels=3, block=Res_CBAM_block, num_blocks=num_blocks, iterations=2, num_layers=5,
-#                    multiplier=2.0, integrate='True', deep_supervision='True')
 
 timef=0
 for i in range(100):
@@ -49,6 +47,7 @@ print(out[0].size())
 def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 print('parameters_count:',count_parameters(net))
+
 
 
 

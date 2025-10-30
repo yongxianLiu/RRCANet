@@ -105,12 +105,17 @@ Infrared small target detection is a challenging task due to its unique characte
 
 ## Citiation
 ```
-@article{liu2025rrcanet,
-  title={RRCANet: Recurrent Reusable-Convolution Attention Network for Infrared Small Target Detection},
+@ARTICLE{11164892,
   author={Liu, Yongxian and Li, Boyang and Liu, Ting and Lin, Zaiping and An, Wei},
-  journal={arXiv preprint arXiv:2506.02393},
-  year={2025}
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={RRCANet: Recurrent Reusable-Convolution Attention Network for Infrared Small Target Detection}, 
+  year={2025},
+  volume={18},
+  number={},
+  pages={24632-24646},
+  doi={10.1109/JSTARS.2025.3610301}
 }
+
 ```
 <br>
 

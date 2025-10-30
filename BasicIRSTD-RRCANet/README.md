@@ -1,6 +1,6 @@
 # Recurrent Reusable-Convolution Attention Network for Infrared Small Target Detection
 
-Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention Network for Infrared Small Target Detection". [[paper]](https://arxiv.org/pdf/2506.02393)
+Pytorch implementation of our "RRCANet: Recurrent Reusable-Convolution Attention Network for Infrared Small Target Detection". [[paper]](https://ieeexplore.ieee.org/document/11164892)
 
 
 ## Requirements
